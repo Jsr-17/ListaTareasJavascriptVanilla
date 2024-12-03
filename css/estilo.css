@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+p > button {
+  background-color: #de0909;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 100px;
+  padding: 2px 8px;
+  text-align: center;
+}
+p > button:hover {
+  background-color: #620909;
+}
+
+div {
+  float: left;
+  width: 48%;
+  /* Ajusta según sea necesario */
+  margin: 0 1%;
+  /* Espaciado entre divs */
+  box-sizing: border-box;
+  /* Para incluir padding/border en el ancho total */
+}
+
+.error {
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.borrar,
+.borrar:hover {
+  float: right;
+  cursor: pointer;
+  /* pone una mano con un dedo */
+  color: red;
+  font-weight: bold;
+}
